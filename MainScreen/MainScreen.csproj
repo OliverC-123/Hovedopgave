@@ -55,6 +55,7 @@
     <Compile Include="02Strings.cs" />
     <Compile Include="01Variabler.cs" />
     <Compile Include="12Istancevariabler.cs" />
+    <Compile Include="12Bog_Til_Istancevariabler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

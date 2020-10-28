@@ -91,7 +91,7 @@ namespace MainScreen
                     case 12:
                         {
                             Class8 test12 = new Class8();
-                            test12.Opgave12();
+                            test12.Opgaver12();
                             break;
                         }
 
