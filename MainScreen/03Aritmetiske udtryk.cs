@@ -32,7 +32,8 @@ namespace MainScreen
                     double tal3 = 5 / 2;
                     double tal4 = 8 % 3;
                     double tal5 = 1 - 5;
-                    Console.WriteLine($"2 + 1 * 2 = {tal1}\n (2 + 1) * 2 ={tal2}\n 5 / 2 ={tal3}\n 8 % 3 ={tal4}\n 1-5 = {tal5}"); // Her bruger jeg en anden metode til at udskrive variabler i tekst ved hjælp af $
+                    Console.WriteLine($"2 + 1 * 2 = {tal1}\n (2 + 1) * 2 ={tal2}\n 5 / 2 ={tal3}\n 8 % 3 ={tal4}\n 1-5 = {tal5}"); 
+                        // Her bruger jeg en anden metode til at udskrive variabler i tekst ved hjælp af $
                     Console.ReadKey();   
                         break;
                     }

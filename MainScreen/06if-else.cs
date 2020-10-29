@@ -195,19 +195,14 @@ namespace MainScreen
                     {
                     string svar1;
                     int alder = 0;
-
                     Console.Title = "Festen";
-
                     while (true)
                     {
-
-
                         while (true)
                         {
                             Console.WriteLine("vælg imellem rød, grøn, blå og gul.");
                             svar1 = Console.ReadLine();
-
-                            if (svar1 == "rød")
+                            if (svar1 == "rød") // Dette var den nemmeste måde jeg kunne få den til at bestemme hvilken farve blev svaret
                             {
                                 Console.BackgroundColor = ConsoleColor.Red;
                                 break;
@@ -231,7 +226,6 @@ namespace MainScreen
                             {
                                 Console.WriteLine("Forkert svar!");
                             }
-
                         }
                         Console.Clear();
                         while (true)
@@ -261,7 +255,6 @@ namespace MainScreen
                     Console.ReadKey();
                     Program test0 = new Program();
                     test0.MainScreen();
-
                         break;
                     }
                 case "b":

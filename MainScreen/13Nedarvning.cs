@@ -11,7 +11,7 @@ namespace MainScreen
        public void Opgave13() // I denne opgaver referer programmer til class Furniture og Chair
         {
             string valg = "";
-            Console.WriteLine("Du har valgt Returtyper og parametre");
+            Console.WriteLine("Du har valgt Nedarvning");
             Console.WriteLine("Du kan nu vælge opgave 1\n\n");
             Console.WriteLine("Du kan vælge \n'a' for opgave 1");
             Console.WriteLine("Tryk 'b' for at gå tilbage til hovedmenuen");

@@ -11,7 +11,7 @@ namespace MainScreen
         public void Opgaver12() // I denne opgaver referer jeg til 12Bog_Til_Istancevariaber
         {
             string valg = "";
-            Console.WriteLine("Du har valgt Returtyper og parametre");
+            Console.WriteLine("Du har valgt Istancevariabler");
             Console.WriteLine("Du kan nu vælge opgave 1\n\n");
             Console.WriteLine("Du kan vælge \n'a' for opgave 1");
             Console.WriteLine("Tryk 'b' for at gå tilbage til hovedmenuen");

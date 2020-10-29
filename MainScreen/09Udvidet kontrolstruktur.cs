@@ -125,7 +125,8 @@ namespace MainScreen
                             }
                             else if (løn > 280000 && løn < 390000)
                             {
-                                Console.WriteLine("Din løn ligger imellem 280.000 og 390.000\nDu skal betale 6% i mellemskat af alt tjent over 280.000 og bundskat af de først 280.000 minus 42.000 fradag");
+                                Console.WriteLine("Din løn ligger imellem 280.000 og 390.000\nDu skal betale 6% i " +
+                                "mellemskat af alt tjent over 280.000 og bundskat af de først 280.000 minus 42.000 fradag");
                                 startskat = 280000 * 0.70;
                                 Console.WriteLine($"Du betalte {startskat}kr i bundskat");
                                 mellemskat = (løn - 280000) * 0.94 + startskat;
@@ -135,7 +136,8 @@ namespace MainScreen
                             }
                             else if (løn > 390000)
                             {
-                                Console.WriteLine("Din løn er over 390.000\n Du skal betale 15% topskat af alt tjent over 390.000 og bundskat af de først 280.000 minus 42.000 fradag og mellemskat af din løn imellem de først 280.000 og 390.000");
+                                Console.WriteLine("Din løn er over 390.000\n Du skal betale 15% topskat af alt tjent over 390.000" +
+                                " og bundskat af de først 280.000 minus 42.000 fradag og mellemskat af din løn imellem de først 280.000 og 390.000");
                                 topskat = (løn - 390000) * 0.85;
                                 Console.WriteLine($"Du betalte {topskat}kr i topskat");
                                 mellemskat = 110000 * 0.94;
