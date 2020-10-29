@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MainScreen
 {
-    public class Bog1
+    public class Bog1 // Denne class er til opgaven med Istancevariabler
     {
         public double Råd;
         public double GetRåd()

@@ -22,11 +22,11 @@ namespace MainScreen
             }
             catch (Exception)
             {
-                Console.WriteLine("Indtast gyldigt tal som henvist");
+                Console.WriteLine("Indtast gyldigt valgmulighed som henvist");
             }
             switch (valg)
             {
-                case "a":
+                case "a": // Meget kort beskrivelse om de 3 måder at tilgængelig gøre en class
                     {
                     Console.WriteLine("Private = Kan kun 'kalde' på sin egne objekter og instanser\nProtected = Kan 'kalde' på sig selv og nedarvede objekter/instanser");
                     Console.WriteLine("Public = Alle kan 'kalde' på public objekter eller instanser");

@@ -8,7 +8,7 @@ namespace MainScreen
 {
     class Class9
     {
-       public void Opgave13()
+       public void Opgave13() // I denne opgaver referer programmer til class Furniture og Chair
         {
             string valg = "";
             Console.WriteLine("Du har valgt Returtyper og parametre");
@@ -21,7 +21,7 @@ namespace MainScreen
             }
             catch (Exception)
             {
-                Console.WriteLine("Indtast gyldigt tal som henvist");
+                Console.WriteLine("Indtast gyldigt valgmulighed som henvist");
             }
             switch (valg)
             {

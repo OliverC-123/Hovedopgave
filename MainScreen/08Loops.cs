@@ -23,7 +23,7 @@ namespace MainScreen
             }
             catch (Exception)
             {
-                Console.WriteLine("Indtast gyldigt tal som henvist");
+                Console.WriteLine("Indtast gyldigt valgmulighed som henvist");
             }
             switch (valg)
             {

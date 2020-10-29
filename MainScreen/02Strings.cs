@@ -21,7 +21,7 @@ namespace MainScreen
             }
             catch (Exception)
             {
-                Console.WriteLine("Indtast gyldigt tal som henvist");
+                Console.WriteLine("Indtast gyldigt valgmulighed som henvist");
             }
             switch (valg)
             {
@@ -46,7 +46,7 @@ namespace MainScreen
                 case "d":
                     {
                     string Value = "I dag har vi den 24. December";
-                    Console.WriteLine("{0}", Value);
+                    Console.WriteLine("{0}", Value); // Dette er den metoder vi lærte at bruge på grundforløbet til at udskrive en variable. Jeg bruger dog flere metoder igennem alle opgaverne
                     Console.ReadKey();
                         break;
                     }

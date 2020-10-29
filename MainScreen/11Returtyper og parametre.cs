@@ -36,7 +36,7 @@ namespace MainScreen
     }
     class Class7
     {
-        public void Opgaver11()
+        public void Opgaver11() // Ligesom med bogen referer opgaverne her til min class Bil oppe over
         {
             string valg = "";
             Console.WriteLine("Du har valgt Returtyper og parametre");
@@ -49,7 +49,7 @@ namespace MainScreen
             }
             catch (Exception)
             {
-                Console.WriteLine("Indtast gyldigt tal som henvist");
+                Console.WriteLine("Indtast gyldigt valgmulighed som henvist");
             }
             switch (valg)
             {

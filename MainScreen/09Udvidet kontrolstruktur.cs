@@ -21,7 +21,7 @@ namespace MainScreen
             }
             catch (Exception)
             {
-                Console.WriteLine("Indtast gyldigt tal som henvist");
+                Console.WriteLine("Indtast gyldigt valgmulighed som henvist");
             }
             switch (valg)
             {
@@ -73,16 +73,16 @@ namespace MainScreen
 
                         }
 
-                        if (svar <= 24)
+                        if (svar <= 24) // If sætter en krav
                         {
                             Console.WriteLine("Du kører under 24km og får ikke noget fradag.");
                         }
-                        else if (svar >= 25 && svar <= 120)
+                        else if (svar >= 25 && svar <= 120) // Hvis if ikke opfylders prøver den else if
                         {
                             total = ((svar - 24) * 154) / 100;
                             Console.WriteLine($"Du vil modtage {total} kr fradag");
                         }
-                        else
+                        else // Hvis else if heller ikke opfylders sker else
                         {
                             total = (96 * 154) / 100 + ((svar - 120) * 77) / 100;
                             Console.WriteLine($"Du vil modtage {total} kr fradag");

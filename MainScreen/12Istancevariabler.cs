@@ -8,7 +8,7 @@ namespace MainScreen
 {
     class Class8
     {
-        public void Opgaver12()
+        public void Opgaver12() // I denne opgaver referer jeg til 12Bog_Til_Istancevariaber
         {
             string valg = "";
             Console.WriteLine("Du har valgt Returtyper og parametre");
@@ -21,7 +21,7 @@ namespace MainScreen
             }
             catch (Exception)
             {
-                Console.WriteLine("Indtast gyldigt tal som henvist");
+                Console.WriteLine("Indtast gyldigt valgmulighed som henvist");
             }
             switch (valg)
             {

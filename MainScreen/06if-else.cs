@@ -22,7 +22,7 @@ namespace MainScreen
             }
             catch (Exception)
             {
-                Console.WriteLine("Indtast gyldigt tal som henvist");
+                Console.WriteLine("Indtast gyldigt valgmulighed som henvist");
             }
             switch (valg)
             {
@@ -86,14 +86,15 @@ namespace MainScreen
                     {
                     string navn = "Oliver";
                     string Bruger1 = "olcar";
+                    string Bruger;
                     string PW1;
                     string PW = "1234";
-                    string Bruger;
+
                     Console.WriteLine("Indtast brugernavn");
                     Bruger = Console.ReadLine();
                     Console.WriteLine("Indtast password");
                     PW1 = Console.ReadLine();
-                    if (Bruger1 == Bruger || PW1 == PW)
+                    if (Bruger1 == Bruger || PW1 == PW) // min if tjekker om det indtastede information passer med Brugernavn og Password
                     {
                         Console.WriteLine($"Velkommen {navn}");
                     }

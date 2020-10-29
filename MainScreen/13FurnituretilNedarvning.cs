@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MainScreen
 {
-    class Furniture
+    class Furniture // Dette er min class furniture til opgave 13 om nedarvning
     {
         protected double cost;
         protected string manufactorer = "IKEA";
@@ -29,7 +29,7 @@ namespace MainScreen
         }
         public void PrintInfo()
         {
-            Console.WriteLine("[Furniture] " + manufactorer + " - " + cost);
+            Console.WriteLine("[Furniture] " + manufactorer + " - " + cost); // Detter er en trejde måde at udskrive variabler i tekst
         }
     }
 }

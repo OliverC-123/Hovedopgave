@@ -8,7 +8,7 @@ namespace MainScreen
 {
     class Konstruktors
     {
-        public void Opgave14()
+        public void Opgave14() // Denne opgaver referer til class bog2 som vises i 14NewBook.cs
         {
             string valg = "";
             Console.WriteLine("Du har valgt Returtyper og parametre");
@@ -21,7 +21,7 @@ namespace MainScreen
             }
             catch (Exception)
             {
-                Console.WriteLine("Indtast gyldigt tal som henvist");
+                Console.WriteLine("Indtast gyldigt valgmulighed som henvist");
             }
             switch (valg)
             {

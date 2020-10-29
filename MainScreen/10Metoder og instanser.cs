@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MainScreen
 {
-    public class Bog
+    class Bog
     {
         public void PrintInfo()
         {
@@ -27,7 +27,7 @@ namespace MainScreen
     }
     class Class6
     {
-        public void Opgaver10()
+        public void Opgaver10() // Opgaverne her referer til min public class Bog som ligger i toppen af denne .cs fil
         {
             string valg = "";
             Console.WriteLine("Du har valgt Metoder og instanser");
@@ -40,7 +40,7 @@ namespace MainScreen
             }
             catch (Exception)
             {
-                Console.WriteLine("Indtast gyldigt tal som henvist");
+                Console.WriteLine("Indtast gyldigt valgmulighed som henvist");
             }
             switch (valg)
             {

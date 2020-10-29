@@ -22,7 +22,7 @@ namespace MainScreen
             }
             catch (Exception)
             {
-                Console.WriteLine("Indtast gyldigt tal som henvist");
+                Console.WriteLine("Indtast gyldigt valgmulighed som henvist");
             }
             switch (valg)
             {
@@ -57,7 +57,7 @@ namespace MainScreen
                             }
                         case 4:
                             {
-                                Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (textToEnter.Length / 2)) + "}", textToEnter));
+                                Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (textToEnter.Length / 2)) + "}", textToEnter)); //Har brugt WindowWidth til at placeret tekst i midten af konsolvinduet
                                 break;
                             }
                         default:

@@ -8,9 +8,9 @@ namespace MainScreen
 {
     class Program
     {
-        public void MainScreen()
+        public void MainScreen() // Class til hele mit loop med MainScreen
         {
-            while (true)
+            while (true) // Loop til at holde programmet kørende indtil man indtaster tal over 17
             {
                 int valg = 0;
                 Console.WriteLine("Velkommen til Olivers C# Opgave");
@@ -27,13 +27,13 @@ namespace MainScreen
                 catch (Exception)
                 {
                     Console.WriteLine("Indtast gyldigt tal som henvist");                    
-                }              
-                switch (valg)
+                }    // Try catch command der ser om variablen 'valg' kan oversættes til int32 for at kunne blive brugt til min switch          
+                switch (valg) // Hovedswitch der bruger metoder til at komme ud til alle mine klasser
                 {
                     case 1:
                         {
-                        Variabler test1 = new Variabler();
-                        test1.Opgaver1();
+                        Variabler test1 = new Variabler(); // kalder på min klasse
+                        test1.Opgaver1(); // Bruger en metode til at tilkomme klassen
                             break;
                         }
                     case 2:
@@ -133,17 +133,20 @@ namespace MainScreen
                             break;
                         }
 
-                    default:
+                    default: // Default er alle andre godkendte indputs
                         {
-                            Environment.Exit(0);
+                            Environment.Exit(0); // Denne command slukker programmet
                         }                    
                         break;
                 }
                 Console.ReadKey();
             }
         }
-        static void Main(string[] args)
+        static void Main(string[] args) // Alt det her er hvad der starter når programmer starter
         {
+            Console.Title = "Oliver's C# Opgave"; // Giver mit program en title
+            Console.BackgroundColor = ConsoleColor.DarkBlue; // Jeg kan bedre lide den mørkeblå end den standard sorte
+            Console.Clear();
             Program Opgaver = new Program();
             Opgaver.MainScreen();
         }

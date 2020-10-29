@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MainScreen
 {
-    class Chair : Furniture
+    class Chair : Furniture // Her beder jeg class Chair om at nedarve fra Furniture
     {
         private int ben;
 

@@ -8,7 +8,7 @@ namespace MainScreen
 {
     class Variabler
     {
-        public void Opgaver1()
+        public void Opgaver1() // Har ikke brugt noget her jeg ikke brugte på MainScreen
         {
            
             string valg = ""; 
@@ -22,8 +22,8 @@ namespace MainScreen
             }
             catch (Exception)
             {
-                Console.WriteLine("Indtast gyldigt tal som henvist");
-            }
+                Console.WriteLine("Indtast gyldigt valgmulighed som henvist");
+            } 
             switch (valg)
             {
                 case "a":
@@ -97,7 +97,7 @@ namespace MainScreen
                     Console.ReadKey();
                         break;
                     }
-                case "b":
+                case "b": // min 'b' case bliver brugt til at retunere til MainScreen via en klasse/metode som MainScreen brugte til at komme her hen
                     {
                         Program test6 = new Program();
                         test6.MainScreen();
