@@ -56,6 +56,14 @@
     <Compile Include="01Variabler.cs" />
     <Compile Include="12Istancevariabler.cs" />
     <Compile Include="12Bog_Til_Istancevariabler.cs" />
+    <Compile Include="13Nedarvning.cs" />
+    <Compile Include="13ChairtilNedarvning.cs" />
+    <Compile Include="13FurnituretilNedarvning.cs" />
+    <Compile Include="14Konstruktors.cs" />
+    <Compile Include="14NewBook.cs" />
+    <Compile Include="15Arrays.cs" />
+    <Compile Include="16ArrayForløb.cs" />
+    <Compile Include="17PPP.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

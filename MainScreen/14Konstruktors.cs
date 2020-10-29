@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace MainScreen
 {
-    class Bool
+    class Konstruktors
     {
-        public void Opgaver5()
+        public void Opgave14()
         {
             string valg = "";
-            Console.WriteLine("Du har valgt Boolean");
+            Console.WriteLine("Du har valgt Returtyper og parametre");
             Console.WriteLine("Du kan nu vælge opgave 1\n\n");
             Console.WriteLine("Du kan vælge \n'a' for opgave 1");
             Console.WriteLine("Tryk 'b' for at gå tilbage til hovedmenuen");
@@ -26,10 +26,9 @@ namespace MainScreen
             switch (valg)
             {
                 case "a":
-                    { int var1 = 2;
-                    int var2 = 1;
-                    bool ean = var1 > var2;
-                    Console.WriteLine($"{ean}");
+                    {
+                    Bog2 Moby = new Bog2("Arnold", "Moby Dickenson", 240.50);
+                    Moby.Print();
                     Console.ReadKey();
                         break;
                     }
@@ -39,9 +38,9 @@ namespace MainScreen
                     test6.MainScreen();
                         break;
                     }
-                default:              
+                default:                 
                     break;
-            }           
+            }
         }
     }
 }

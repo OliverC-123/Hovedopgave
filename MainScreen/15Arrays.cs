@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace MainScreen
 {
-    class Bool
+    class Arrays
     {
-        public void Opgaver5()
+        public void Opgave15()
         {
             string valg = "";
-            Console.WriteLine("Du har valgt Boolean");
+            Console.WriteLine("Du har valgt Returtyper og parametre");
             Console.WriteLine("Du kan nu vælge opgave 1\n\n");
             Console.WriteLine("Du kan vælge \n'a' for opgave 1");
             Console.WriteLine("Tryk 'b' for at gå tilbage til hovedmenuen");
@@ -26,10 +26,20 @@ namespace MainScreen
             switch (valg)
             {
                 case "a":
-                    { int var1 = 2;
-                    int var2 = 1;
-                    bool ean = var1 > var2;
-                    Console.WriteLine($"{ean}");
+                    {
+                    int[] number = { -2, -1, 0, 10 }; // Konstant for start
+
+                    Console.WriteLine(number[3]);
+                    Console.WriteLine(number[1]);
+                    int[] numbers = new int[4]; // Værdier kan komme når de behøves
+                    numbers[0] = -2;
+                    numbers[1] = -1;
+                    numbers[2] = 0;
+                    numbers[3] = 10;
+                    Console.WriteLine(number[3]);
+                    Console.WriteLine(number[1]);
+                    int sum = numbers.Sum(); // int sum udregner sum af numbers
+                    Console.WriteLine(sum);
                     Console.ReadKey();
                         break;
                     }
@@ -39,9 +49,9 @@ namespace MainScreen
                     test6.MainScreen();
                         break;
                     }
-                default:              
+                default:                  
                     break;
-            }           
+            }
         }
     }
 }
